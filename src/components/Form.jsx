@@ -1,11 +1,11 @@
-import Button from "./Button";
-import Panel from "./Panel";
+import Button from './Button';
+import Panel from './Panel';
 
-export default function Form({ theme }) {
+export default function Form() {
   return (
-    <Panel title="Welcome" theme={theme}>
-      <Button theme={theme}>Sign up</Button>
-      <Button theme={theme}>Log in</Button>
+    <Panel title='Welcome'>
+      <Button>Sign up</Button>
+      <Button>Log in</Button>
     </Panel>
   );
 }
